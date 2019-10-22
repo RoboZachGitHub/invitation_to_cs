@@ -14,8 +14,8 @@ def largest_value_w_position(list_of_numbers: list):
             i_largest = i
         else:
             continue
-    print("using largest_value_w_position")
-    print("""largest value is: {}\nposition index is: {}\n""".format(largest, i_largest))
+    #print("using largest_value_w_position")
+    #print("""largest value is: {}\nposition index is: {}\n""".format(largest, i_largest))
     return largest, i_largest
 
 
@@ -33,8 +33,8 @@ def largest_value_w_position_2(numbers_list: list):
         else:
             i += 1
 
-    print("using largest_value_w_position_2")
-    print("""largest value is: {}\nposition index is: {}\n""".format(largest, i_largest))
+    #print("using largest_value_w_position_2")
+    #print("""largest value is: {}\nposition index is: {}\n""".format(largest, i_largest))
     return largest, i_largest
 
 numbers_list = (19, 41, 12, 63, 22)
