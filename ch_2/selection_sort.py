@@ -8,13 +8,13 @@ from big_bigger_biggest import largest_value_w_position
 
 
 def selection_sort(unsorted_list: list):
-    #print(unsorted_list)
+    # print(unsorted_list)
     sorted_list = []
     while len(unsorted_list) > 0:
         value, i_position = largest_value_w_position(unsorted_list)
         unsorted_list.pop(i_position)
         sorted_list.insert(0, value)
-    #print(sorted_list)
+    # print(sorted_list)
     return sorted_list
 
 
